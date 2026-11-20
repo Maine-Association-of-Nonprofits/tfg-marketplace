@@ -4,7 +4,7 @@ Live breakout-room board for Together for Good 2026 (Thu 2026-11-19). Staff type
 Sheet; `index.html` polls it every ~3s and shows one TFG-branded card per room.
 
 - **Public page:** https://www.nonprofitmaine.org/tfg-marketplace (a Novi page, header/footer hidden, that embeds the GitHub Pages site below in an iframe; share and print this URL)
-- **Hosted source:** https://johnsawesome.github.io/tfg-marketplace/ (what the Novi iframe loads)
+- **Hosted source:** https://maine-association-of-nonprofits.github.io/tfg-marketplace/ (what the Novi iframe loads)
 - **Data:** Google Sheet `1Iykh5KMN1ZIvUTDodyzPvrXzGKMAu1NVQcG4JtWa_F0`, tab `Display` (shared anyone-with-link Viewer; topic text only, no attendee data)
 - **Sheet template:** `sheet-template/` (`build_sheet.py` regenerates the .xlsx)
 - **Assets:** `make_assets.py` rebuilds `logo.png` (from `Together_For_Good_2026_Logo.png`) and `qr.svg`. The QR points at https://www.nonprofitmaine.org/tfg-marketplace, so keep that Novi page's Friendly File Name the same; if it ever changes, rerun `make_assets.py` with the new URL and reprint.
